@@ -1,25 +1,17 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Work in progress... 
 
-Things you may want to cover:
+Instructions:
 
-* Ruby version
+`bundle install`
+`rake db:create`
+`rake db:migrate`
 
-* System dependencies
+Routes:
 
-* Configuration
+Create a user:
+'POST /users'
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-# plaid_integration
+Get Toekn from user
+`GET users/:id/connect?public_token='GET PUBLIC TOKEN FROM LINK'`
